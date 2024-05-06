@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,400&family=Montserrat:wght@200;300;400;500;600;800&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+textarea {
+  overflow-y: hidden;
+  height: 52px;
+  max-height: 200px;
+}
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+  vertical-align: middle;
+}
+
+.mini-boto {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.mini-boto {
+  width: 100%;
+  height: 100%;
+  clip-path: polygon(48% 0, 100% 0, 100% 100%, 10% 100%);
+  z-index: -1;
+  background-color: #5396ec;
+}
+
+.text-token-text-primary {
+  color: #ececf1;
+}
+
+.text-token-text-secondary {
+  color: #666;
+}
+
+.vue-scroll-to-bottom {
+  height: 100%;
+  overflow-y: auto;
+  width: 100%;
+}
+
+.text-gizmo-gray-600 {
+  color: rgba(102, 102, 102, 1);
+}
+.bg-token-surface-primary {
+  background-color: #fff;
+}
+
+menu,
+ol,
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+.ellipse {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  clip-path: ellipse(50% 10% at 50% 100%);
+  z-index: 100;
+}
